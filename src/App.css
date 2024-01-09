@@ -1,0 +1,101 @@
+.viu-layout {
+  background: rgb(51,122,183);
+  user-select: none;
+  background: linear-gradient(90deg, rgba(51,122,183,1) 35%, rgba(52,152,219,1) 100%);
+  font-family: 'Fira Sans', sans-serif;
+  font-family: 'Noto Sans', sans-serif;
+}
+
+.viu-body {
+  background: rgb(237,237,237);
+  background: linear-gradient(90deg, rgba(237,237,237,1) 35%, rgba(236,240,241,1) 100%);
+  padding: 5%;
+  min-height: 100vh;
+  box-shadow: 0px 0px 2px 5px #EDEDED;
+}
+
+.viu-title {
+  color: #337ab7;
+  text-align: center;
+  font-size: 2em;
+}
+
+.viu-author {
+  color: #337ab7;
+  text-align: center;
+  font-size: 1.2em;
+}
+
+.viu-github {
+  color: #337ab7;
+  text-align: center;
+}
+.viu-github a {
+  text-decoration: none;
+}
+
+.viu-paper {
+  color: #337ab7;
+  text-align: center;
+}
+.viu-paper a {
+  text-decoration: none;
+}
+
+.viu-features {
+  padding-top: 60px;
+  padding-bottom: 30px;
+}
+
+.viu-feature {
+  padding-bottom: 10px;
+}
+.viu-feature label {
+  font-size: 0.9em;
+}
+.viu-feature input[type=number] {
+  font-size: 0.8em;
+  border-radius: 0px;
+  padding-left: 5px;
+  background: white;
+  border: none;
+}
+
+.viu-threshold {
+  padding-bottom: 20px;
+  padding-top: 60px;
+}
+
+.viu-button {
+  text-align: center;
+}
+.viu-button button {
+  border-radius: 0px;
+  font-size: 1.2em;
+  padding: 10px 50px;
+}
+
+.viu-prediction {
+  text-align: center;
+  background: white;
+  color: #337ab7;
+  padding: 20px;
+  font-size: 1.5em;
+}
+
+.viu-error {
+  text-align: center;
+  background: white;
+  color: #D35400;
+  padding: 20px;
+  font-size: 1.5em;
+}
+
+.viu-connecting {
+  margin-top: 60px;
+  text-align: center;
+  background: white;
+  color: #D35400;
+  padding: 20px;
+  font-size: 1.5em;
+}
